@@ -1,0 +1,8 @@
+# 全部按 LF 存储。代码在 WSL 里编译，CRLF 会让 make 报
+# "missing separator"（命令行的 Tab 后面多了 \r），也会让 shell 脚本无法执行。
+* text=auto eol=lf
+
+# 二进制，不许做换行符转换
+*.png binary
+*.jpg binary
+*.bin binary
