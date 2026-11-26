@@ -1,0 +1,8 @@
+# qmake 原地构建的产物，不进仓库
+Makefile
+.qmake.stash
+*.o
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+canview
